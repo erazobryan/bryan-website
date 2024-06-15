@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+body{
+    background-color: bisque;
+}
+nav{
+    list-style: none;
+    text-decoration: none;
+ text-align: left;
+
+ width: fit-content;
+ float: right;
+}
+ nav2{
+    list-style: none;
+    text-decoration: none;
+ text-align: left;
+
+ width: fit-content;
+ float: left ;
+}
+footer{
+   margin-top:300px ;
+   margin-right: 50px;
+}
+footer2{
+    margin-top:300px ;
+    margin-left: 50px;
+ }

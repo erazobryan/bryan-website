@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Gallery</title>
+    <style>
+
+.container4{
+    background-color: red;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+}
+
+.grid-item {
+    text-align: center;
+    background-color: rgb(51, 49, 52);
+    border-radius: 10px;
+}
+
+.grid-item img {
+    width: 300px;
+    height: 200px;
+    
+    transition: transform 0.3s;
+}
+
+.grid-item img:hover {
+    transform: scale(1.05);
+}
+
+.grid-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+    </style>
+</head>
+<body>
+<div class="container4">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="8.jpg" alt="Miata">
+                <p>MIATA</p>
+            </div>
+            <div class="grid-item">
+                <img src="9.jpg" alt="Honda NSX">
+                <p>HONDA NSX</p>
+            </div>
+            <div class="grid-item">
+                <img src="10.jpg" alt="AE 86">
+                <p>AE 86</p>
+            </div>
+            <div class="grid-item">
+                <img src="11.jpeg" alt="Nissan R35">
+                <p>NISSAN R35</p>
+            </div>
+            <div class="grid-item">
+                <img src="12.jpg" alt="Nissan R34">
+                <p>NISSAN R34</p>
+            </div>
+            <div class="grid-item">
+                <img src="13.jpg" alt="MRK4 Supra">
+                <p>MRK4 SUPRA</p>
+            </div>
+            <div class="grid-item">
+                <img src="14.jpg" alt="240 SX">
+                <p>240 SX</p>
+            </div>
+            <div class="grid-item">
+                <img src="15.jpg" alt="Mazda RX7">
+                <p>MAZDA RX7</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
